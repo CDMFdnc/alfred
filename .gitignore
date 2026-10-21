@@ -1,0 +1,32 @@
+# secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# node / expo
+node_modules/
+.expo/
+dist/
+web-build/
+
+# data
+pgdata/
+*.sqlite3
+*.db
+
+# real property data (Alfred) - keep only the example
+properties/*.json
+!properties/example.json
+
+# misc
+.DS_Store
+.vscode/
+*.log
